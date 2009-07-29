@@ -1,0 +1,130 @@
+/* ********************** */
+/* **   php-countdown  ** */
+/* **  Copyright 2009  ** */
+/* **  philip   stark  ** */
+/* **  CSS Stylesheet  ** */
+/* ********************** */
+
+/* General style information */
+body {
+	padding:     0px;
+	margin:      0px;
+	background:  #444444;
+	font-size:   12px;
+	font-family: arial, helvetica, sans-serif;
+	color:       #cccccc;
+}
+
+/* countdown */
+.countdown{
+	margin-top:      50px;
+	padding-top:     10px;
+	padding-bottom:  10px;
+	font-weight:     bold;
+	background:      #4f4f4f;
+	color:           #cccccc;
+	font-size:       48px;
+	text-decoration: none;
+	text-align:      center;
+	margin-left:     auto ;
+	margin-right:    auto ;
+}
+
+/* display of the next upcoming event */
+div.next_event_wrapper{
+	margin-top:      50px;
+	padding-top:     18px;
+	padding-bottom:  18px;
+	padding-left:    25px;
+	padding-right:   25px;
+	font-weight:     normal;
+	background:      #4f4f4f;
+	color:           #cccccc;
+	font-size:       36px;
+	text-decoration: none;
+	text-align:      left;
+	margin-left:     auto;
+	margin-right:    auto;
+	width:           600px;
+}
+
+div.next_event_header{
+	font-size:       20px;
+	text-align:      left;
+	padding:         0;
+	margin:          0;
+	border:          0;
+	color:           #696969; 
+/*	float:           left;*/
+}
+
+div.next_event{
+	padding:       0;
+	margin-top:    -0.6em;
+	border:        0;
+	font-weight:   normal;
+	background:    #4f4f4f;
+	color:         #cccccc;
+	font-size:     36px;
+	text-align:    center;
+	width:         100%;
+/*	float:         left;*/
+}
+
+/* event list container*/
+div.event_list_wrapper{
+	margin-top:      50px;
+	padding-top:     25px;
+	padding-bottom:  25px;
+	padding-left:    25px;
+	padding-right:   25px;
+	font-weight:     normal;
+	background:      #4f4f4f;
+	color:           #cccccc;
+	font-size:       16px;
+	text-decoration: none;
+	text-align:      left;
+	margin-left:     auto;
+	margin-right:    auto;
+	width:           600px;
+}
+
+
+
+/* event list */
+ul.event_list{
+	list-style-type: none;
+	margin:          0px;
+	padding:         0px;
+}
+
+ul.event_list li{
+	margin-top:    3px;
+	margin-bottom: 4px;
+}
+
+li.next_event{
+	font-weight: bold;
+	color:       #55a9e9;
+}
+
+li.old_event{
+	font-weight: normal;
+	color:       #59cf66;
+}
+
+li.event_to_come{
+	font-weight: normal;
+	color:       #e96468;
+}
+
+span.event_date{
+	float: right;
+}
+
+/* status images */
+ul.event_list li img{
+	vertical-align: middle;
+	border-style:   none;
+	margin-right:   3px;
+}
