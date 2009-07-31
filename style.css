@@ -13,6 +13,7 @@ body {
 	font-size:   12px;
 	font-family: arial, helvetica, sans-serif;
 	color:       #cccccc;
+	text-align:  center;
 }
 
 /* countdown */
@@ -49,7 +50,7 @@ div.next_event_wrapper{
 }
 
 div.next_event_header{
-	font-size:       20px;
+	font-size:       28px;
 	text-align:      left;
 	padding:         0;
 	margin:          0;
@@ -60,7 +61,7 @@ div.next_event_header{
 
 div.next_event{
 	padding:       0;
-	margin-top:    -0.6em;
+	margin-top:    -0.8em;
 	border:        0;
 	font-weight:   normal;
 	background:    #4f4f4f;
@@ -87,44 +88,93 @@ div.event_list_wrapper{
 	margin-left:     auto;
 	margin-right:    auto;
 	width:           600px;
+	vertical-align:  middle;
 }
 
 
-
-/* event list */
-ul.event_list{
-	list-style-type: none;
-	margin:          0px;
-	padding:         0px;
+.next_event_list{
+	font-weight:    bold;
+	color:          #55a9e9;
+	padding-top:    3px;
+	padding-bottom: 3px;
+	margin-top:     0px;
+	border:         0px;
+/*	background:     #4f4f4f;*/
+/*	font-size:      36px;*/
+	text-align:     left;
+	width:          100%;
+/*	float:          left;*/
+	vertical-align: middle;
 }
 
-ul.event_list li{
-	margin-top:    3px;
-	margin-bottom: 4px;
-}
-
-li.next_event{
-	font-weight: bold;
-	color:       #55a9e9;
-}
-
-li.old_event{
+.old_event{
 	font-weight: normal;
-	color:       #59cf66;
+	color:          #59cf66;
+	padding-top:    3px;
+	padding-bottom: 3px;
+	margin-top:     0px;
+	border:         0px;
+/*	background:     #4f4f4f;*/
+/*	font-size:      36px;*/
+	text-align:     left;
+	width:          100%;
+/*	float:          left;*/
+	vertical-align: middle;
 }
 
-li.event_to_come{
-	font-weight: normal;
-	color:       #e96468;
+.event_to_come{
+	font-weight:    normal;
+	color:          #e96468;
+	padding-top:    3px;
+	padding-bottom: 3px;
+	margin-top:     0px;
+	border:         0px;
+/*	background:     #4f4f4f;*/
+/*	font-size:      36px;*/
+	text-align:     left;
+	width:          100%;
+/*	float:          left;*/
+	vertical-align: middle;
 }
 
-span.event_date{
+.event_name{
+/*	float: left;*/
+	text-align:     left;
+	padding-top:    0.12em;
+	vertical-align: middle;
+/*	width:          300px;*/
+
+}
+
+.event_date{
 	float: right;
+	text-align:     right;
+	padding-top:    0.12em;
+	vertical-align: middle;
+/*	width:          200px;*/
+
 }
+.event_status{
+/*	float: left;*/
+	text-align:     right;
+/*	padding-top:    0.1em;*/
+	vertical-align: middle;
+/*	width:          22px;*/
+/*	height:         22px;*/
+	margin-right:   4px;
+}
+
 
 /* status images */
-ul.event_list li img{
+img{
 	vertical-align: middle;
 	border-style:   none;
-	margin-right:   3px;
+/*	float:          left;*/
 }
+
+div.copyright{
+	margin-top:    30px;
+	text-align:    center;
+	font-size:     10px;
+}
+
