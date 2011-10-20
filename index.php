@@ -14,15 +14,15 @@
 
 /* Array of events */
 /* Syntax:
-    array("Name of event", mktime(hour, min, sec, day, month, year))
+    array("Name of event", mktime(hour, min, sec, month, day, year))
 */
 
 $events = array(
-array("Math I"                  , mktime(9 ,0,0,7,13,2009)), 
-array("History"                 , mktime(9 ,0,0,7,20,2009)), 
-array("Linear Algebra"          , mktime(14,0,0,8,10,2009)), 
-array("International Relations" , mktime(14,0,0,8,12,2009)), 
-array("Physics"                 , mktime(14,0,0,8,14,2009))
+array("Math I"                  , mktime(9 ,0,0,11,13,2011)), 
+array("History"                 , mktime(9 ,0,0,11,20,2011)), 
+array("Linear Algebra"          , mktime(14,0,0,12,10,2011)), 
+array("International Relations" , mktime(14,0,0,12,12,2011)), 
+array("Physics"                 , mktime(14,0,0,12,14,2011))
 );
 
 /* $days days, $hours hours(, $minutes minutes)$suffix */
